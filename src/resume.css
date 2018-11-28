@@ -69,9 +69,14 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
   margin-top: 5px;
 }
 
-.resume .main .category-row p {
+.resume .main sidebar-category .category-row p {
   font-size: smaller;
   margin:0.05rem;
+}
+
+.resume .main sidebar-category .category-row ul {
+  margin: 0rem;
+  padding-inline-start:15px
 }
 
 .resume .main .category-row li {
