@@ -68,7 +68,12 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
 .resume .main .category-row .category-bullets {
   margin-top: 5px;
 }
-.resume .main .category-row p,
+
+.resume .main .category-row p {
+  font-size: smaller;
+  margin:0.05rem;
+}
+
 .resume .main .category-row li {
   font-size: smaller;
 }
@@ -78,6 +83,7 @@ sidebar-category:last-of-type .category {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
+
 
 category:last-of-type category-item:last-of-type .category {
   border-bottom: 0 !important;
