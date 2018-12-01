@@ -65,6 +65,21 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
   margin-bottom: 5px;
 }
 
+.languages{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-top:0.1rem;
+
+}
+
+.languages p{
+  width:33%;
+  font-size: small;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
 .resume .main .category-row .category-bullets {
   margin-top: 5px;
 }

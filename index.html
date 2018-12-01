@@ -15,7 +15,7 @@
 
 </head><body ng-app="Resume" ng-cloak="">
     <resume>
-        <resume-heading first-name="Mitchell" last-name="Lee" linkedin="mitchell-lee" github="mnsupreme" email="mnsupreme@gmail.com" phone="626-861-7861" website="mnsupreme.github.io">
+        <resume-heading first-name="Mitchell" last-name="Lee" github="mnsupreme" linkedin="mitchell-lee" email="mnsupreme@gmail.com" phone="(626)-861-7861" website="https://mnsupreme.github.io">
         </resume-heading>
         <resume-body>
             <resume-column flex="30">
@@ -48,8 +48,8 @@
                 </sidebar-category>
                 <sidebar-category name="Achievements">
                     <ul>
-                        <li>LA Hacks Gap Tech Challenge 1st place Spring 2015</li>
-                        <li>M Hacks Wolfram 3rd Place Fall 2016</li>
+                        <li><b>LA Hacks Gap Tech Challenge</b> 1st place <i>Spring 2015</i></li>
+                        <li><b>M Hacks Wolfram</b> 3rd Place Fall <i>Fall 2015</i></li>
                     </ul>
                 </sidebar-category>
                 <sidebar-category name="Langauges">
@@ -60,42 +60,88 @@
                         <li>CSS - <b>advanced</b></li>
                         <li>Node.js - <b>intermediate</b></li>
                         <li>Matlab - <b>intermediate</b></li>
+                        <li>SQL - <b>intermediate</b></li>
                         <li>C++ - <b>beginner</b></li>
                     </ul>
                 </sidebar-category>
             </resume-column>
             <resume-column flex="70">
                 <category name="Professional Experience">
-                    <category-item title="Co-Founder" subtitle="Torch Studios">
-                        <li>Co-Founded company in 2015</li>
-                        <li>Applies machine learning to customer purchase history for marketing materials</li>
-                        <li>Featured on Product Hunt, clients include two Fourtune 500 companies</li>
+                    <category-item title="Student Developer" subtitle="3iD/IN3 (November 2016-August 2018)">
+                        <li>Updated Client Websites</li>
+                        <li>Built a cloud based user management and content management console</li>
+                        <li>Wrote scripts for data collection and data cleaning</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Python</p>
+                            <p>Node.js</p>
+                            <p>Javascript</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Firebase</p>
+                        </div>
+
                     </category-item>
-                    <category-item title="Software Development Intern" subtitle="AirBnB (Summer 2015)">
-                        <li>Worked in an Agile Environment on the iOS team with other interns</li>
-                        <li>Used JIRA to collaborate with developers are on stories</li>
-                        <li>Collaborated with other interns on design</li>
-                        <li>Used Objective-C to create new app features and scaled on Kubernetes</li>
-                    </category-item>
-                    <category-item title="Software Development Intern" subtitle="Uber (Summer 2014)">
-                        <li>Worked on the iOS application</li>
-                        <li>Added new features and fixed several bugs on the app</li>
-                        <li>Greenfield project to research a better way to call cars to your location</li>
+                    <category-item title="Web Development Intern" subtitle="Lowe's Corporate (Summer 2018)">
+                        <li>Built a web application to test an interal API</li>
+                        <li>Formatted JSON response from internal API</li>
+                        <li>Unit tested with Lab.js</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Lab.js</p>
+                            <p>Handlebars.js</p>
+                            <p>Node.js</p>
+                            <p>Javascript</p>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
                     </category-item>
                 </category>
                 <category name="Projects">
-                    <category-item title="In-It-For-The-Prizes" subtitle="Penn Apps Spring 2016 (Finalist)">
-                        <li>Such and amazing app that did a lot of things</li>
-                        <li>Integrations with Uber, Postmates, Spotify, and Office 365</li>
-                        <li>Written with Ionic Framework and hosted on Kubernetes 😎 for the cred</li>
+                    <category-item title="Ground Robot State Estimator" subtitle="Purdue International Aerial Robotics (Spring 2018)">
+                        <li>Programmed a simulation to model ground robot movements</li>
+                        <li>Wrote an Unscented Transform to predict ground robot future positions</li>
+                        <li>refactored a computer vision application to detect ground robots</li>
+                        <li>Received Independent Study College Credit for my work</li>
+                        <li>https://github.com/purdue-arc/mission7_state_estimator</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Matlab</p>
+                            <p>C++</p>
+                        </div>
                     </category-item>
-                    <category-item title="FoodStash" subtitle="Hophacks Spring 2016 (2nd Place)">
-                        <li>Food-storage-as-a-Service app that lets people put their food in your fridge</li>
-                        <li>All storage and payment in based on the blockchain with Ethereum and Mist</li>
+                    <category-item title="Subletr" subtitle="Big Red Hacks (Fall 2016)">
+                        <li>Subletting classfields website. Allowed users to post and reply to subleasing opporotunities</li>
+                        <li>Lead a team of beginners</li>
+                        <li>Deployed on AWS</li>
+                        <li>https://github.com/mnsupreme/bigred</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Node.js</p>
+                            <p>Angular.js</p>
+                            <p>Mongo DB</p>
+                        </div>
                     </category-item>
-                    <category-item title="Turnup" subtitle="github.com/tswizzle/turnup">
-                        <li>A new programming language with a focus on developers turning up</li>
-                        <li>Implemented in Go and requires Docker 1.12 with Ceph on CoreOS</li>
+                    <category-item title="Parent Lock" subtitle="M Hacks Fall 2016">
+                        <li>Car monitoring app built for GM'S prototype smart dahsboard</li>
+                        <li>Allows parents to track their car's location</li>
+                        <li>https://devpost.com/software/parentlock-5k1ivn</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Node.js</p>
+                            <p>Angular.js</p>
+                        </div>
+                    </category-item>
+                    <category-item title="Delta Sky Mile Hacks" subtitle="Georgia Tech 2016">
+                        <li>Used Lyft, Google and Delta API to set allow Delta customers to purchase Lyft rides with their points</li>
+                        <li>Programmed the server side code and Database</li>
+                        <li>https://devpost.com/software/delta-skymile-services</li>
+                        <li>Languages:</li>
+                        <div class="languages">
+                            <p>Flask</p>
+                            <p>Python</p>
+                            <p>SQL</p>
+                        </div>
                     </category-item>
                 </category>
 
