@@ -63,7 +63,7 @@ angular.module('Resume', ['ngMaterial'])
   transclude: true,
   template: `<div flex="" class="category-row">
     <div class="category">
-      <h5 class="category-row-title">{{r.name}}</h5>
+      <h4 class="category-row-title">{{r.name}}</h4>
       <ng-transclude></ng-transclude>
     </div>
   </div>`
