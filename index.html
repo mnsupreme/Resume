@@ -19,6 +19,18 @@
         </resume-heading>
         <resume-body>
             <resume-column flex="30">
+            	<sidebar-category name="Languages">
+                    <ul>
+                        <li>Javascript - <b>intermediate</b></li>
+                        <li>Python - <b>intermediate</b></li>
+                        <li>HTML - <b>advanced</b></li>
+                        <li>CSS - <b>advanced</b></li>
+                        <li>Node.js - <b>intermediate</b></li>
+                        <li>Matlab - <b>intermediate</b></li>
+                        <li>SQL - <b>intermediate</b></li>
+                        <li>C++ - <b>beginner</b></li>
+                    </ul>
+                </sidebar-category>
                 <sidebar-category name="Education">
                     <p><b>Purdue University</b>
                     <ul>
@@ -28,7 +40,7 @@
                     <li><b>GPA</b> - 3.06</li>
                     </ul>
                     <br>
-                    <p><b>Coursera</b>
+                    <p><b>Stanford University (Coursera)</b>
                     <ul>
                     <li>2018</li>
                     <li>Machine Learning Cerficate</li>
@@ -52,26 +64,35 @@
                         <li><b>M Hacks Wolfram</b> 3rd Place Fall <i>Fall 2015</i></li>
                     </ul>
                 </sidebar-category>
-                <sidebar-category name="Languages">
-                    <ul>
-                        <li>Javascript - <b>intermediate</b></li>
-                        <li>Python - <b>intermediate</b></li>
-                        <li>HTML - <b>advanced</b></li>
-                        <li>CSS - <b>advanced</b></li>
-                        <li>Node.js - <b>intermediate</b></li>
-                        <li>Matlab - <b>intermediate</b></li>
-                        <li>SQL - <b>intermediate</b></li>
-                        <li>C++ - <b>beginner</b></li>
-                    </ul>
-                </sidebar-category>
+                
             </resume-column>
             <resume-column flex="70">
+            	<category name="Skills and Highlights">
+            		<category-item title="Cyber Security">
+            			<li>Cyber Security Graduate from Purdue University</li>
+            			<li>Analyzed malicious network traffic using Python in my Problems in National Security class</li>
+            			<li>Wrote teaching materials for "Python Scripting for Cyber Security" class</li>
+                    </category-item>
+                    <category-item title="Data Science">
+            			<li>Received my Machine Learning certificate from Stanford's Online Coursera class</li>
+            			<li>Statistically analyzed large amounts of network traffic using Anaconda and Dask.</li>
+            			<li>Implemented an Unscented Kalaman Filter in Matlab to try to predict the movement of ground robots for a robotics competition</li>
+                    </category-item>
+                    <category-item title="Web Development">
+            			<li>Lead a team of beginners to build and deploy a web app on AWS in 36 hours in my Subletr project</li>
+            			<li>Built a web application in Angular.js that ran on GM's prototype car dashboard at MHacks 2016</li>
+                        <li>Built a web based user and content management system and deployed it on Firebase</li>
+            			<li>Built a fully functioning web application for Lowe's during my internship</li>
+                    </category-item>
+                    
+                </category>
                 <category name="Professional Experience">
                     <category-item title="Student Developer" subtitle="3iD/IN3 (November 2016-August 2018)">
                         <li>Updated Client Websites</li>
                         <li>Built a cloud based user management and content management console</li>
                         <li>Wrote scripts for data collection and data cleaning</li>
-                        <li>Languages:</li>
+                        <li>One of my projects: https://cover-crop-tests.web.app/</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Python</p>
                             <p>Node.js</p>
@@ -86,7 +107,7 @@
                         <li>Built a web application to test an internal company API</li>
                         <li>The web application received and formatted the JSON response from the internal API</li>
                         <li>Unit tested the application with Lab.js</li>
-                        <li>Technologies:</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Lab.js</p>
                             <p>Handlebars.js</p>
@@ -108,7 +129,7 @@
                         <li>Cleaned and calculated descriptive statistics for large amounts of data</li>
                         <li>Isolated and analyzed over 3 million data streams</li>
                         <li>https://github.com/mnsupreme/581</li>
-                        <li>Technologies:</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Python</p>
                             <p>Scapy</p>
@@ -119,31 +140,19 @@
                         <li>Created teaching materials for teaching a class on Python Scripting for Cybersecurity</li>
                         <li>The material will be used in a graduate class taught at Purdue</li>
                         <li>https://github.com/mnsupreme/Python_For_Cybersecurity</li>
-                        <li>Technologies:</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Python</p>
                             <p>Scapy</p>
-                            <p>Pyshark</p>
-                        </div>
-                    </category-item>
-                    <category-item title="Ground Robot State Estimator" subtitle="Purdue International Aerial Robotics (Spring 2018)">
-                        <li>Programmed a simulation to model ground robot movements</li>
-                        <li>Wrote an Unscented Transform to predict ground robot future positions</li>
-                        <li>refactored a computer vision application to detect ground robots</li>
-                        <li>Received Independent Study College Credit for my work</li>
-                        <li>https://github.com/purdue-arc/mission7_state_estimator</li>
-                        <li>Languages:</li>
-                        <div class="languages">
-                            <p>Matlab</p>
-                            <p>C++</p>
+                            <p>Metasploit</p>
                         </div>
                     </category-item>
                     <category-item title="Subletr" subtitle="Big Red Hacks (Fall 2016)">
                         <li>Created a classfields website for subletting. Allowed users to post and reply to subleasing opporotunities</li>
-                        <li>Lead a team of beginners</li>
+                        <li>Led a team of beginners</li>
                         <li>Deployed on AWS</li>
                         <li>https://github.com/mnsupreme/bigred</li>
-                        <li>Languages:</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Node.js</p>
                             <p>Angular.js</p>
@@ -154,12 +163,60 @@
                         <li>Created a car monitoring app built for GM'S prototype smart dashboard</li>
                         <li>Allows parents to track their car's location</li>
                         <li>https://devpost.com/software/parentlock-5k1ivn</li>
-                        <li>Languages:</li>
+                        <li>Technologies Used:</li>
                         <div class="languages">
                             <p>Node.js</p>
                             <p>Angular.js</p>
                         </div>
                     </category-item>
+                    <category-item title="Ground Robot State Estimator" subtitle="Purdue International Aerial Robotics (Spring 2018)">
+                        <li>Programmed a simulation to model ground robot movements</li>
+                        <li>Wrote an Unscented Transform to predict ground robot future positions</li>
+                        <li>refactored a computer vision application to detect ground robots</li>
+                        <li>Received Independent Study College Credit for my work</li>
+                        <li>https://github.com/purdue-arc/mission7_state_estimator</li>
+                        <li>Technologies Used:</li>
+                        <div class="languages">
+                            <p>Matlab</p>
+                            <p>C++</p>
+                        </div>
+                    </category-item>
+                    <category-item title="Delta Skymiles Services" subtitle="Hack Georgia Tech (Fall 2016)">
+                        <li>Web Application that allowed users to spend their Delta Airlines credits on Lyft rides</li>
+                        <li>Used the Delta Airlines API and Lyft API</li>
+                        <li>I wrote the backend server and database functions</li>
+                        <li>learned a lot about integrating different user accounts from different applications (Delta and Lyft)</li>
+                        <li>https://devpost.com/software/delta-skymile-services</li>
+                        <li>Technologies Used:</li>
+                        <div class="languages">
+                            <p>Python</p>
+                            <p>Flask</p>
+                            <p>SQLite</p>
+                        </div>
+                    </category-item>
+                    <category-item title="Wolfram Challenge" subtitle="M Hacks (Fall 2015)">
+                        <li>Helped write a job reccomendation site that ranked job listings by public sentinment of the employer</li>
+                        <li>The app scraped articles about the employer and computed a sentiment score from those articles</li>
+                        <li>I wrote a minimalist front end to display the ranked listings using bootstrap</li>
+                        <li>Technologies Used:</li>
+                        <div class="languages">
+                            <p>HTML</p>
+                            <p>Jade</p>
+                            <p>Javascript</p>
+                        </div>
+                    </category-item>
+                    <category-item title="Gap Tech Challenge" subtitle="LA Hacks (Spring 2015)">
+                        <li>Helped write a web based management console to manage social media competitions for GAP</li>
+                        <li>The console tracked and displayed all posts containing certain hashtags using the Instagram api</li>
+                        <li>I wrote a minimalist front end using bootstrap</li>
+                        <li>Technologies Used:</li>
+                        <div class="languages">
+                            <p>HTML</p>
+                            <p>Javascript</p>
+                        </div>
+                    </category-item>
+
+
                 </category>
 
             </resume-column>
